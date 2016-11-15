@@ -9,9 +9,9 @@ class PurchaseRequest extends RequestBase
 {
     public function setTransactionId($value)
     {
-        if (!preg_match('/^[0-9]{4}[0-9a-zA-Z]{0,8}$/', $value)) {
-            throw new \InvalidArgumentException('Invalid transaction id');
-        }
+        // if (!preg_match('/^[0-9]{4}[0-9a-zA-Z]{0,8}$/', $value)) {
+        //     throw new \InvalidArgumentException('Invalid transaction id');
+        // }
         return parent::setTransactionId($value);
     }
 
