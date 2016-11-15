@@ -1,5 +1,5 @@
 {
-    "name": "swisnl/omnipay-redsys",
+    "name": "ericlagarda/omnipay-redsys",
     "type": "library",
     "description": "RedSys driver for the Omnipay payment processing library",
     "keywords": [
